@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Commerce Project</title>
+    <style>
+      .header {
+        height: 60px;
+        width: auto;
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        border: 1px solid black;
+        cursor: pointer;
+      }
+
+      .anchor {
+        padding: 20px;
+        font-size: 20px;
+        color: white;
+        text-decoration: none;
+      }
+
+      .subHeader {
+        height: 200px;
+        width: auto;
+        background-color: grey;
+        padding: 0px;
+        border: 1px solid black;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-size: 50px;
+        color: white;
+      }
+
+      .bike {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        font-size: 50px;
+        /* background-color: black; */
+        color: black;
+        margin: 1rem 45rem;
+        border: 1px solid white;
+        border-radius: 5px;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+          /* width: 450px; */
+      }
+
+      .row1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      }
+
+      .albums {
+        margin: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+      }
+
+      button {
+        border: 2px white;
+        background-color: black;
+        border-radius: 8px;
+        height: 45px;
+        width: 100px;
+        color: white;
+      }
+
+      .cart {
+        display: flex;
+        justify-content: center;
+        height: 60px;
+      }
+
+      .cartbtn {
+        height: 60px;
+        width: 100px;
+        margin-bottom: 2rem;
+      }
+      .footer {
+        display: flex;
+        flex-direction: row;
+        background-color: grey;
+      }
+      .footer1 {
+        float: left;
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    
+    color: white;
+    font-size: 20px;
+      }
+      .footer2 {
+        float: right;
+        width: 10%;
+        margin-left: 37%;
+      }
+
+      .seecart {
+        left: 600px;
+        position: relative;
+        height: 20px;
+        border: 2px solid white;
+      }
+
+      .images {
+        height: 250px;
+        width: 350px;
+      }
+
+      .col-btn {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 1rem;
+      }
+
+      .latest-album {
+        height: 100px;
+        width: 270px;
+        background-color: white;
+        color: black;
+        border: 1px solid black;
+        font-size: 30px;
+        cursor: pointer;
+      }
+
+      .venue {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 80px;
+      }
+
+      .details {
+        margin: 2rem;
+        width: 175px;
+      }
+
+      .hr {
+        width: 1200px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <a href="./homepage.html" class="anchor">HOME</a>
+      <a href="./index.html" class="anchor">STORE</a>
+      <a href="./about.html" class="anchor">ABOUT</a>
+      <a href="./order.html" class="anchor">ORDERS</a>
+      <!-- <button class="seecart">Cart</button> -->
+    </div>
+    <div class="subHeader">
+      <h1>The Biker Zone</h1>
+    </div>
+    <div class="col-btn">
+      <button class="latest-album">Check Our Latest Bike Collection</button>
+    </div>
+    <h3 class="bike">Road Shows</h3>
+    <div>
+      <ul>
+        <div class="venue">
+          <h4 class="details">SEP 21</h4>
+          <h4 class="details">Pune, India</h4>
+          <h4 class="details">Sahara Stadium</h4>
+          <button class="details">Get Tickets</button>
+        </div>
+        <hr class="hr" />
+        <div class="venue">
+          <h4 class="details">SEP 26</h4>
+          <h4 class="details">Goa, India</h4>
+          <h4 class="details">Main Bridge</h4>
+          <button class="details">Get Tickets</button>
+        </div>
+        <hr class="hr" />
+        <div class="venue">
+          <h4 class="details">SEP 31</h4>
+          <h4 class="details">Capetown, RSA</h4>
+          <h4 class="details">Ground de Capetown</h4>
+          <button class="details">Get Tickets</button>
+        </div>
+        <hr class="hr" />
+        <div class="venue">
+          <h4 class="details">Oct 05</h4>
+          <h4 class="details">California, USA</h4>
+          <h4 class="details">The Grand Stadium</h4>
+          <button class="details">Get Tickets</button>
+        </div>
+        <hr class="hr" />
+        <div class="venue">
+          <h4 class="details">Oct 11</h4>
+          <h4 class="details">Tokio, Japan</h4>
+          <h4 class="details">Japanase Mall Ground</h4>
+          <button class="details">Get Tickets</button>
+        </div>
+        <hr class="hr" />
+      </ul>
+      <div class="footer">
+        <div class="footer1"><h4 id="copyright">©Copyright 2022, The Biker Zone | All Rights Reserved</h4></div>
+      </div>
+    </div>
+  </body>
+</html>
